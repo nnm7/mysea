@@ -1,0 +1,158 @@
+@charset "UTF-8"
+
+;body{
+    background-color: rgb(254, 254, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    margin: 0px 0px 50px;
+    padding: 30px;
+    border-bottom: 2px solid #666666;
+}
+header nav ul{
+    font-family: 'TsukuARdGothic-Regular',sans-serif;
+    font-weight: bold;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    
+}
+header nav ul li {
+    margin: 0 40px;
+}
+header nav ul li.hom{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.hom:hover{
+    background-color: aqua;
+}
+header nav ul li.hom:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+header nav ul li.pro{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.pro:hover{
+    background-color: #FFFF00;
+}
+header nav ul li.pro:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+header nav ul li.his{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.his:hover {
+    color: white;
+    background-color: #9900FF;
+}
+header nav ul li.his:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+header nav ul li.hob{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.hob:hover {
+    background-color: #00EE00;
+}
+header nav ul li.hob:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+header nav ul li.col{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.col:hover {
+    color: white;
+    background-color: #FF3300;
+}
+header nav ul li.col:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+header nav ul li.inst{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 7px;
+}
+header nav ul li.inst:hover {
+    color: white;
+    background-color: #0000FF;
+}
+header nav ul li.inst:hover::before{
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+h3{
+    text-align: left;
+    margin: 20px 0px 20px ;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Arial Black',sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    color: #008BBB;
+    margin: 15px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+.topimg{
+    text-align: center;
+    margin: 0 0 30px;
+}
+div.ikon{
+    text-align: left;
+    width: 200px;
+    height: 400px;
+    object-position: center 100%;
+    border-radius:50%;
+}
+h4{
+    font-family: 'Arial Black',sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 100px;
+}   
+h5{
+    font-family: 'TsukuARdGothic-Regular',sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+h6{
+    text-align: center;
+    font-size: 18px;
+}
+p.mail{
+    text-align: center;
+    font-size: 18px;
+}
+footer{
+    background-color: #008BBB;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+  font-family: 'Kaiti SC',sans-serif;
+  margin-top: 100px;
+}
