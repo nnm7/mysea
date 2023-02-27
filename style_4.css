@@ -1,0 +1,86 @@
+@charset "UTF-8"
+
+;body{
+    background-color: rgb(254, 254, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    margin: 0px 0px 30px;
+}
+header nav ul{
+    font-family: 'TsukuARdGothic-Regular',sans-serif;
+    font-weight: bold;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin: 30px; 
+    border: solid 2px black;
+    padding: 3px ;
+    width: 80px;
+}
+header h1{
+    font-family: 'Arial Black',sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 40px;
+}
+header h1 span{
+    background-image: linear-gradient(135deg,#00EE00 20%,#353cfd 80%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.list_design025 {
+    font-family: 'TsukuARdGothic-Regular',sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column; /* 縦並びに変更 */
+    flex-wrap: wrap;
+    padding: 25px;
+    list-style: none;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.list_design025 li {
+    margin: 20px 2rem;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+.list_design025 li::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(135deg,#00EE00 20%,#353cfd 80%);
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+}
+.list_design025 li:hover::after {
+    -webkit-transition: -webkit-transform .3s;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s, -webkit-transform .3s;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+}
+footer{
+    background-color: #008BBB;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 10px 20px;
+  font-family: 'Kaiti SC',sans-serif;
+}
